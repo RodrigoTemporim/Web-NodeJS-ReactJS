@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    
+    
+}
+body::after {
+    content: "";
+    background: url(depositphotos_70527419-stock-illustration-mathematical-vector-seamless-pattern-with.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+
+.tela{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #444;
+    flex-direction: column;
+    width:  260px ;    
+}
+.telaOperacao{  
+    font-size: 25px;
+    color: #fff;
+    height: 20px;  
+   
+    
+}
+.telaRes{  
+    font-size: 50px;
+    color: #fff;         
+}
+.btn{
+    font-size: 30px;
+    height: 75px;
+    width: 75px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    text-align: center;
+    outline: none;
+}
+.conteiner{    
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #000;    
+}
+.botoes{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.centro{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    margin-top: -100px;
+    margin-left: -100px
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+}
